@@ -1,4 +1,4 @@
-### A simple Rust CLI todo App
+# A simple Rust CLI todo App
 
 ## The end goal of this project is to help one understand simple concepts of the Rust lang
 
