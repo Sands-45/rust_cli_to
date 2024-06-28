@@ -7,12 +7,7 @@ fn welcome(todos: &Vec<String>) {
     println!("You have {} todos\n", todos.len());
 
     //Instructions for the user and commands
-    println!("Here are the commands you can use:\n");
-    println!("1. Add\n");
-    println!("2. Remove\n");
-    println!("3. List\n");
-    println!("4. List commands\n");
-    println!("5. Exit\n");
+    list_commands();
 }
 
 // Add a todo to the list
