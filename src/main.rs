@@ -4,7 +4,7 @@ use ::std::io::{stdin, stdout, Write};
 //Welcome user to the todo app
 fn welcome(todos: &Vec<String>) {
     println!("Hi user, welcome to the todo app\n");
-    println!("You have {} todos\n", todos.len());
+    //println!("You have {} todos\n", todos.len());
 
     //Instructions for the user and commands
     list_commands();
@@ -72,6 +72,7 @@ fn list_todos(todos: &Vec<String>) {
 fn list_commands(){
     //Instructions for the user and commands
     println!("Here are the commands you can use:\n");
+    println!("0. Sync\n");
     println!("1. Add\n");
     println!("2. Remove\n");
     println!("3. List\n");
