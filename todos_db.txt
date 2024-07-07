@@ -1,4 +1,0 @@
-Learn more Rust lang
-Sync the CLI to do on the cloud
-Sync local file to the cloud
-

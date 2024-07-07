@@ -4,7 +4,7 @@ use loading::Loading;
 use std::fs::{read_to_string, OpenOptions};
 use std::path::Path;
 
-const LOCAL_DB: &str = "todos_db.txt";
+const LOCAL_DB: &str = "todos.db";
 
 //Load todos from file
 fn load_todos(file_path: &str) -> Vec<String> {

@@ -5,3 +5,6 @@
 .env.local
 .env.development.local
 .env.development
+
+#ignore the todos db file
+todos.db
