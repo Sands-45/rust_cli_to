@@ -4,6 +4,8 @@
 
 ### Tasks
 
+- Add Folders
+- Add Reminders
 - A new branch allowing users to opt in for cloud sync
 - Users should be able to create profiles using the pin
 - Retrieve their todo from the cloud
