@@ -18,8 +18,8 @@ fn load_todos(file_path: &str) -> Vec<String> {
             .map(|content| {
                 content
                     .lines()
-                    .map(|line| line.trim().to_string()) // Trim each line before collecting
-                    .filter(|line| !line.is_empty()) // Filter out empty lines
+                    .map(|line| line.trim().to_string())
+                    .filter(|line| !line.is_empty())
                     .collect::<Vec<String>>()
             })
             .unwrap_or_default();
@@ -119,13 +119,13 @@ fn list_todos(todos: &Vec<String>) {
 //List all commands
 fn list_commands() {
     //Instructions for the user and commands
-    let instruct = r#"Here are the commands you can use:
+    let instructions = r#"Here are the commands you can use:
         1. Add
         2. Remove
         3. List
         4. List commands
         5. Exit"#;
-    println!("{}\n", instruct);
+    println!("{}", instructions);
     //println!("0. Sync\n");
 }
 
