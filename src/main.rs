@@ -119,13 +119,14 @@ fn list_todos(todos: &Vec<String>) {
 //List all commands
 fn list_commands() {
     //Instructions for the user and commands
-    println!("Here are the commands you can use:\n");
+    let instruct = r#"Here are the commands you can use:
+        1. Add
+        2. Remove
+        3. List
+        4. List commands
+        5. Exit"#;
+    println!("{}\n", instruct);
     //println!("0. Sync\n");
-    println!("1. Add\n");
-    println!("2. Remove\n");
-    println!("3. List\n");
-    println!("4. List commands\n");
-    println!("5. Exit\n");
 }
 
 //Main Function
